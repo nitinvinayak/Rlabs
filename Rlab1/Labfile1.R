@@ -11,3 +11,7 @@ mat <- cbind(mat, c(1,2,3,4))
 a <- matrix(1:4, nrow = 2, ncol = 2)
 b <- matrix(1:4, nrow = 2, ncol = 2)
 View(a%*%b)
+mat[0, ]
+mat[,0 ]
+mat[1:1,]
+mat[1:1, , drop = FALSE]
