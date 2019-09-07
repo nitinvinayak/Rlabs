@@ -15,3 +15,6 @@ mat[0, ]
 mat[,0 ]
 mat[1:1,]
 mat[1:1, , drop = FALSE]
+for(i in mat) {
+  print (i)
+}
