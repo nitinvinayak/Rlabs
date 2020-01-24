@@ -1,0 +1,12 @@
+head(mtcars)
+d01<-mtcars[,c(1:7,10,11)]
+d01
+head(d01)
+plot(d01)
+d01.pca<-princomp(d01,cor=TRUE,score=TRUE)
+head(d01.pca)
+summary(d01.pca)
+plot(d01.pca)
+d01.pca$loadings
+d02<-d01.pca$scores
+head(d02)
